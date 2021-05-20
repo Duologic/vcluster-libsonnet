@@ -121,5 +121,5 @@ function(
   service_headless:
     this.service
     + service.metadata.withName(name + '-headless')
-    + service.spec.withClusterIP(''),
+    + service.spec.withClusterIP('None'),
 }
