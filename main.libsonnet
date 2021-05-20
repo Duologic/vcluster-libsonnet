@@ -6,7 +6,7 @@ function(
   name,
   namespace,
   service_cidr,
-  image='rancher/k3s:v1.17.17-k3s1',
+  k3s_image='rancher/k3s:v1.17.17-k3s1',
   disk_size='5Gi'
 ) {
   local this = self,
